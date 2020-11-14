@@ -41,5 +41,7 @@
         "color": "#fff"
       }
     }
-  }
+  },
+  "minimum-stability": "dev",
+    "prefer-stable": true
 }
