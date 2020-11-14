@@ -7,7 +7,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^0.1.0-beta.14"
+    "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
   },
   "authors": [
     {
@@ -17,16 +17,8 @@
 	{
         "name": "Nguyễn Văn Hậu",
         "email": "ithauaz@gmail.com"
-    },
-    {
-      "name": "David Sevilla Martín",
-      "email": "david.s@redevs.org",
-      "role": "Developer"
     }
   ],
-  "replace": {
-    "sijad/flarum-ext-pages": "*"
-  },
   "autoload": {
     "psr-4": {
       "Ithauaz\\Pages\\": "src/"
@@ -41,7 +33,5 @@
         "color": "#fff"
       }
     }
-  },
-  "minimum-stability": "dev",
-    "prefer-stable": true
+  }
 }
