@@ -1,18 +1,18 @@
 <?php
 
 /*
- * This file is part of fof/pages.
- *
- * Copyright (c) 2019 FriendsOfFlarum.
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+  * Tệp này là một phần của Ithauaz/pages.
+  *
+  * Bản quyền (c) 2020 Ithauaz.
+  *
+  * Để biết đầy đủ thông tin về bản quyền và giấy phép, vui lòng xem GIẤY PHÉP
+  * tệp đã được phân phối với mã nguồn này.
+  */
 
-namespace FoF\Pages\Api\Controller;
+namespace Ithauaz\Pages\Api\Controller;
 
 use Flarum\Api\Controller\AbstractCreateController;
-use FoF\Pages\Command\CreatePage;
+use Ithauaz\Pages\Command\CreatePage;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface;
@@ -23,7 +23,7 @@ class CreatePageController extends AbstractCreateController
     /**
      * {@inheritdoc}
      */
-    public $serializer = 'FoF\Pages\Api\Serializer\PageSerializer';
+    public $serializer = 'Ithauaz\Pages\Api\Serializer\PageSerializer';
 
     /**
      * @var Dispatcher

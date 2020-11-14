@@ -3,10 +3,10 @@ import PermissionGrid from 'flarum/components/PermissionGrid';
 
 export default function () {
     extend(PermissionGrid.prototype, 'viewItems', items => {
-        items.add('fof-pages-restricted', {
+        items.add('ithauaz-pages-restricted', {
             icon: 'fas fa-file-alt',
-            label: app.translator.trans('fof-pages.admin.permissions.restricted'),
-            permission: 'fof-pages.viewRestricted',
+            label: app.translator.trans('ithauaz-pages.admin.permissions.restricted'),
+            permission: 'ithauaz-pages.viewRestricted',
         });
     });
 }

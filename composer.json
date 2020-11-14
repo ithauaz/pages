@@ -1,6 +1,6 @@
 {
-  "name": "fof/pages",
-  "description": "Create custom pages with Flarum",
+  "name": "ithauaz/pages",
+  "description": "Tạo Trang Tùy Chỉnh Tiếng Việt Flarum",
   "keywords": [
     "flarum"
   ],
@@ -14,6 +14,10 @@
         "name": "Sajjad Hashemian",
         "email": "wolaws@gmail.com"
     },
+	{
+        "name": "Nguyễn Văn Hậu",
+        "email": "ithauaz@gmail.com"
+    },
     {
       "name": "David Sevilla Martín",
       "email": "david.s@redevs.org",
@@ -25,20 +29,17 @@
   },
   "autoload": {
     "psr-4": {
-      "FoF\\Pages\\": "src/"
+      "Ithauaz\\Pages\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "FoF Pages",
+      "title": "VN Pages",
       "icon": {
         "name": "far fa-file-alt",
-        "backgroundColor": "#e74c3c",
+        "backgroundColor": "#000000",
         "color": "#fff"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/18301"
     }
   }
 }

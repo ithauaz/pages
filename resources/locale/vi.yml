@@ -1,0 +1,41 @@
+ithauaz-pages:
+  admin:
+    edit_page:
+      content_label: => ithauaz-pages.ref.content
+      content_placeholder: => ithauaz-pages.ref.content
+      delete_page_button: Xóa Trang
+      delete_page_confirmation: "Bạn Có Chắc Muốn Xóa Trang?"
+      hidden_label: Lưu dưới dạng bản nháp
+      restricted_label: Hạn chế quyền truy cập (định cấu hình ai có thể truy cập trong tab Quyền)
+      html_label: Bật HTML
+      set_as_home_page_confirmation: "Bạn có chắc chắn muốn đặt trang này làm trang chủ của mình không?"
+      slug_label: => ithauaz-pages.ref.slug
+      slug_placeholder: => ithauaz-pages.ref.slug
+      submit_button: => core.ref.save_changes
+      title: => ithauaz-pages.ref.create_page
+      title_label: => ithauaz-pages.ref.title
+      title_placeholder: => ithauaz-pages.ref.title
+      url_label: => ithauaz-pages.ref.url
+      url_placeholder: => ithauaz-pages.ref.url
+    nav:
+      pages_button: => ithauaz-pages.ref.pages
+      pages_text: Tạo các trang tĩnh tùy chỉnh.
+    pages:
+      about_text: Tạo và quản lý các trang tĩnh.
+      create_button: => ithauaz-pages.ref.create_page
+    pages_list:
+      empty_text: Có vẻ như không có trang nào ở đây.
+      title: => ithauaz-pages.ref.title
+    permissions:
+      restricted: Xem các trang bị hạn chế
+    badges:
+      hidden: Bản nháp
+      restricted: Bị hạn chế
+
+  ref:
+    content: Nội dung
+    create_page: Tạo Trang
+    pages: Trang
+    slug: Slug
+    title: Tiêu Đề
+    url: Liên Kết

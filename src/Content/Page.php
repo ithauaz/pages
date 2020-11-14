@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of fof/pages.
- *
- * Copyright (c) 2019 FriendsOfFlarum.
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+  * Tệp này là một phần của Ithauaz/pages.
+  *
+  * Bản quyền (c) 2020 Ithauaz.
+  *
+  * Để biết đầy đủ thông tin về bản quyền và giấy phép, vui lòng xem GIẤY PHÉP
+  * tệp đã được phân phối với mã nguồn này.
+  */
 
-namespace FoF\Pages\Content;
+namespace Ithauaz\Pages\Content;
 
 use Flarum\Api\Client;
 use Flarum\Frontend\Document;
@@ -17,7 +17,7 @@ use Flarum\Http\Exception\RouteNotFoundException;
 use Flarum\Http\UrlGenerator;
 use Flarum\Settings\SettingsRepositoryInterface;
 use Flarum\User\User;
-use FoF\Pages\Api\Controller\ShowPageController;
+use Ithauaz\Pages\Api\Controller\ShowPageController;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface;
@@ -68,7 +68,7 @@ class Page
 
         $apiDocument = $this->getApiDocument($request->getAttribute('actor'), $params);
 
-        $document->content = $this->view->make('fof-pages::content.page', compact('apiDocument'));
+        $document->content = $this->view->make('ithauaz-pages::content.page', compact('apiDocument'));
 
         $document->payload['apiDocument'] = $apiDocument;
 

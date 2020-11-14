@@ -23,6 +23,6 @@ export default class HomePage extends PagePage {
     }
 
     id() {
-        return app.data['fof-pages.home'];
+        return app.data['ithauaz-pages.home'];
     }
 }

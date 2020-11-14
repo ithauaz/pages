@@ -1,29 +1,22 @@
-# Pages by FriendsOfFlarum
+# Pages by Ithauaz
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fof/pages.svg)](https://packagist.org/packages/fof/pages)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/ithauaz/pages.svg)](https://packagist.org/packages/ithauaz/pages)
 
-A [Flarum](https://flarum.org/) extension. Create custom static pages in Flarum. Original by @sijad.
+A [Flarum](https://flarum.org/) sự mở rộng. Tạo các trang tĩnh tùy chỉnh trong Flarum. Bản gốc của @sijad.
 
 ![pages_front](https://cloud.githubusercontent.com/assets/7693001/14614939/aa14d7dc-05b8-11e6-9c24-7492820bcd1d.png)
 
-### Installation
+### Cài Đặt
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
-
-```sh
-composer require fof/pages
-```
-
-### Updating
+Sử Dụng [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) hoặc cài đặt thủ công với trình soạn nhạc:
 
 ```sh
-composer update fof/pages
+composer require ithauaz/pages
 ```
 
-### Links
+### Nâng Cấp
 
-- [Packagist](https://packagist.org/packages/fof/pages)
-- [GitHub](https://github.com/FriendsOfFlarum/pages)
-- [Sijad's Pages](https://github.com/sijad/flarum-ext-pages)
+```sh
+composer update ithauaz/pages
+```
 
-An extension by [FriendsOfFlarum](https://github.com/FriendsOfFlarum), revival commissioned by [webdeveloper.com](https://webdeveloper.com/).

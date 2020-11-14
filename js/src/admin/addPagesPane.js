@@ -7,7 +7,7 @@ import PagesPage from './components/PagesPage';
 export default function() {
     app.routes.pages = { path: '/pages', component: PagesPage };
 
-    app.extensionSettings['fof-pages'] = () => m.route.set(app.route('pages'));
+    app.extensionSettings['ithauaz-pages'] = () => m.route.set(app.route('pages'));
 
     extend(AdminNav.prototype, 'items', items => {
         items.add(
@@ -15,8 +15,8 @@ export default function() {
             AdminLinkButton.component({
                 href: app.route('pages'),
                 icon: 'fas fa-file-alt',
-                description: app.translator.trans('fof-pages.admin.nav.pages_text'),
-            }, app.translator.trans('fof-pages.admin.nav.pages_button'))
+                description: app.translator.trans('ithauaz-pages.admin.nav.pages_text'),
+            }, app.translator.trans('ithauaz-pages.admin.nav.pages_button'))
         );
     });
 }

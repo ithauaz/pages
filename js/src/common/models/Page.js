@@ -25,7 +25,7 @@ export default class Page extends mixin(Model, {
             items.add('hidden', Badge.component({
                 type: 'hidden',
                 icon: 'fas fa-trash',
-                label: app.translator.trans('fof-pages.admin.badges.hidden'),
+                label: app.translator.trans('ithauaz-pages.admin.badges.hidden'),
             }));
         }
 
@@ -33,7 +33,7 @@ export default class Page extends mixin(Model, {
             items.add('restricted', Badge.component({
                 type: 'restricted',
                 icon: 'fas fa-user-shield',
-                label: app.translator.trans('fof-pages.admin.badges.restricted'),
+                label: app.translator.trans('ithauaz-pages.admin.badges.restricted'),
             }));
         }
 

@@ -1,19 +1,19 @@
 <?php
 
 /*
- * This file is part of fof/pages.
- *
- * Copyright (c) 2019 FriendsOfFlarum.
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+  * Tệp này là một phần của Ithauaz/pages.
+  *
+  * Bản quyền (c) 2020 Ithauaz.
+  *
+  * Để biết đầy đủ thông tin về bản quyền và giấy phép, vui lòng xem GIẤY PHÉP
+  * tệp đã được phân phối với mã nguồn này.
+  */
 
-namespace FoF\Pages\Api\Serializer;
+namespace Ithauaz\Pages\Api\Serializer;
 
 use Flarum\Api\Serializer\AbstractSerializer;
-use FoF\Pages\Page;
-use FoF\Pages\Util\Html;
+use Ithauaz\Pages\Page;
+use Ithauaz\Pages\Util\Html;
 
 class PageSerializer extends AbstractSerializer
 {

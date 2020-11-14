@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of fof/pages.
- *
- * Copyright (c) 2019 FriendsOfFlarum.
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace FoF\Pages;
+  * Tệp này là một phần của Ithauaz/pages.
+  *
+  * Bản quyền (c) 2020 Ithauaz.
+  *
+  * Để biết đầy đủ thông tin về bản quyền và giấy phép, vui lòng xem GIẤY PHÉP
+  * tệp đã được phân phối với mã nguồn này.
+  */
+  
+namespace Ithauaz\Pages;
 
 use Flarum\Foundation\AbstractValidator;
 
